@@ -5,20 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Install Ruby version
+  ruby-2.5.0
 
-* System dependencies
+* Bundle install
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Run - yarn
