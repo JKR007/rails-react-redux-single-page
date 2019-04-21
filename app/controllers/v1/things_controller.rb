@@ -7,6 +7,10 @@ module V1
           {
             name: 'some-thing',
             guid: '000-000-000-000'
+          },
+          {
+            name: 'some-thing-2',
+            guid: '000-000-000-001'
           }
         ]
       }

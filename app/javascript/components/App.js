@@ -16,8 +16,10 @@ class App extends React.Component {
       <Provider store={store}>
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" render={() => ('Home!') } />
-            <Route path="/hello" render={() => <HelloWorld greeting="Friend" /> } />
+            [
+              <Route exact path="/" render={() => ('Home!') } />
+              <Route path="/hello" render={() => <HelloWorld greeting="Friend" /> } />
+            ]
           </Switch>
         </BrowserRouter>
       </Provider>
