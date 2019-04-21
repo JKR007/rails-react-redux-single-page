@@ -1,4 +1,4 @@
-import { createStore } from "redux"
+import { createStore } from 'redux'
 
 const initialState = {
   things: []
@@ -6,7 +6,7 @@ const initialState = {
 
 function rootReducer(state, action) {
   console.log(action.type);
-  switch (key) {
+  switch (action.type) {
     default:
       return state
   }
